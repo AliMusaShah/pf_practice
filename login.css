@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  font-family: 'Acme', sans-serif;
+  user-select: none;
+}
+/* body{
+    color: white !important;
+} */
+.header h1{
+    color: #2532aa;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: currentColor;
+}
+.box{
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 100;
+  background-color: rgba(0,0,0, 0.3); 
+  border-radius: 20px;
+}
+.register_box{
+  height: auto !important;
+
+}
+h1{
+  font-size: 45px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.container{
+  width: 250px;
+  margin-top: 25px;
+  /* background-color: transparent; */
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #1ae68c;
+  border-radius: 1000px;
+  padding: 15px;
+}
+input[type="email"], input[type="password"],input[type="text"]{
+  /* width: 210px; height: 40px; */
+  background-color: transparent;
+  outline: none; border: none;
+  color: white;
+}
+
+.remember{
+  width: 250px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.account_mg{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  color: #243ab1;
+}
+.submit {
+  background-color: #1ae68c;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  /* border: 2px solid black; */
+} 
+.submit:hover{
+  background-color: #243ab1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bi{
+  color: white;
+}
